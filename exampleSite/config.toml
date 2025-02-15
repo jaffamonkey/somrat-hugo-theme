@@ -119,6 +119,12 @@ url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "Know more"
+pre = "#"
+url = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
