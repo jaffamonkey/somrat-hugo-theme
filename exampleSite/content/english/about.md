@@ -66,3 +66,7 @@ The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi t
 
 Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
 
+Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. 
+
+The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus.
+
