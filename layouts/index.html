@@ -134,13 +134,13 @@
         </div> -->
         <div class="menu-slider">
           <nav>
-            <ul class="mobile-menu-list">
+            <!-- <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
               <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
                   href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
               </li>
               {{ end }}
-            </ul>
+            </ul> -->
             <!-- Language List -->
             <!-- {{- if .IsTranslated }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
@@ -162,12 +162,12 @@
               {{ end }}
             </select>
             {{ end }} -->
-            <ul class="mobile-menu-icons list-inline">
+            <!-- <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
-          </nav>
+          </nav> -->
         </div>
       </div>
     </div>
