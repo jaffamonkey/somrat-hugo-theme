@@ -68,5 +68,5 @@ Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth el
 
 Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. 
 
-The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus.
+The medulla voodoo sacerdos locus coeruleus flesh eater.
 
