@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
-title = "Somrat | Hugo Portfolio Template"
+baseURL = "https://embarassed-artichoke.netlify.app"
+title = "teramar club"
 theme = "somrat"
 # post pagination
 paginate = "6"
@@ -117,39 +117,10 @@ url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "About me"
-pre = "#"
-url = "about"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "Service"
-pre = "#"
-url = "service"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "Portfolio"
-pre = "#"
-url = "portfolio"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "Testimonial"
-pre = "#"
-url = "testimonial"
-weight = 5
-
-[[Languages.en.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
-weight = 6
-
-[[Languages.en.menu.main]]
-name = "Blog"
-url = "blog"
-weight = 7
+weight = 2
 
 
 ################################### French language #####################################
