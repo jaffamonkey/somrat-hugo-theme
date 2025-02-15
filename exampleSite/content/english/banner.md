@@ -1,9 +1,9 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "Welcome to the Teramar club"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
-bg_image : "images/backgrounds/full-nav-bg.jpg"
+first_name : "Teramar"
+last_name : "Club"
+bg_image : "images/slider/Alderney1.jpg"
 # animated text loop
 occupations:
 - "Web Developer"
@@ -12,14 +12,14 @@ occupations:
 
 # slider background image loop
 slider_images:
-- "images/slider/slider-1.jpg"
-- "images/slider/slider-2.jpg"
-- "images/slider/slider-3.jpg"
+- "images/slider/Alderney1.jpg"
+- "images/slider/Alderney2.jpg"
+- "images/slider/Alderney3.jpg"
 
 # button
 button:
   enable : true
-  label : "HIRE ME"
+  label : "CONTACT US"
   link : "#contact"
 
 
