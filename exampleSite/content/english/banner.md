@@ -6,9 +6,9 @@ last_name : "Club"
 bg_image : "images/slider/Alderney1.jpg"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "Du pain .."
+- "Du vin .."
+- "Du boursin."
 
 # slider background image loop
 slider_images:
