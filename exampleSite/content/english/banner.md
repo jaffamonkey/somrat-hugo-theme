@@ -1,7 +1,7 @@
 ---
-title : "Welcome to the Teramar club"
+title : "Welcome to the Terrormar club"
 # full screen navigation
-first_name : "Teramar"
+first_name : "Terrormar"
 last_name : "Club"
 bg_image : "images/slider/Alderney1.jpg"
 # animated text loop
