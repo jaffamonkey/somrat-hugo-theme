@@ -199,7 +199,7 @@
       {{ end }}
     </div>
 
-    <div class="row experience-skill">
+    <!-- <div class="row experience-skill">
       {{ with .Params.experience }}
       {{ if .enable }}
       <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
@@ -238,14 +238,14 @@
       </div>
       {{ end }}
       {{ end }}
-    </div>
+    </div> -->
   </div>
 </section>
 {{ end }}
 <!-- End About Me -->
 
 <!-- Start Services -->
-{{ with .GetPage "service" }}
+<!-- {{ with .GetPage "service" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="services {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="service">
   <div class="container">
@@ -271,11 +271,11 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- End Services -->
 
 <!-- call to action -->
-{{ with .GetPage "call-to-action" }}
+<!-- {{ with .GetPage "call-to-action" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section id="cta" class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
   <div class="container position-relative z-index-9">
@@ -288,7 +288,7 @@
     {{ end }}
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- end call to action -->
 
 <!-- Start Portfolio -->
@@ -351,7 +351,7 @@
 <!-- End Portfolio -->
 
 <!-- Start Testimonials -->
-{{ with .GetPage "testimonial"}}
+<!-- {{ with .GetPage "testimonial"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="testimonials {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="testimonial">
   <div class="container">
@@ -374,11 +374,11 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- End Testimonials -->
 
 <!-- funfacts -->
-{{ with .GetPage "funfacts"}}
+<!-- {{ with .GetPage "funfacts"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
   <div class="container position-relative z-index-9">
@@ -399,7 +399,7 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- end funfacts -->
 
 <!-- Start Contact -->
