@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://embarassed-artichoke.netlify.app"
-title = "Terrormar club"
+title = "Terrormar Club"
 theme = "somrat"
 # post pagination
 paginate = "6"

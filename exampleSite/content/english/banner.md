@@ -1,5 +1,5 @@
 ---
-title : "Welcome to the Terrormar club"
+title : "Welcome to the Terrormar Club"
 # full screen navigation
 first_name : "Terrormar"
 last_name : "Club"
