@@ -567,6 +567,22 @@ input:checked+label span:last-child {
   transform: translateY(5px);
 }
 
+.full-nav-icons .fas.fa-facebook-f {
+  padding: 7px 10px;
+}
+
+.full-nav-icons .fas,
+.to-top .fas {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #fff;
+  padding: 7px;
+}
+
+.full-nav-icons .fas:hover {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
 /*--------------------------------
   End Header
 ----------------------------------*/
@@ -1695,6 +1711,23 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 .footer-icons .fab:hover {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.footer-icons .fas.fa-facebook-f {
+  padding: 7px 10px;
+}
+
+.footer-icons .fas,
+.to-top .fa {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #fff;
+  padding: 7px;
+}
+
+.footer-icons .fas:hover {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
