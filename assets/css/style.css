@@ -186,7 +186,7 @@ body {
 }
 
 .logo img {
-  width: 200px;
+  width: 150px;
 }
 
 .owl-carousel.owl-full-width {
@@ -1962,7 +1962,7 @@ textarea.form-control::-webkit-input-placeholder,
   }
 
   .header .logo img {
-    width: 200px;
+    width: 150px;
   }
 
 }
