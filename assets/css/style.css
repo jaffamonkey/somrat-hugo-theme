@@ -1709,6 +1709,7 @@ textarea.form-control::-webkit-input-placeholder,
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #fff;
+  opacity: 40%;
   padding: 7px;
 }
 
@@ -1726,6 +1727,7 @@ textarea.form-control::-webkit-input-placeholder,
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #fff;
+  opacity: 40%;
   padding: 7px;
 }
 
