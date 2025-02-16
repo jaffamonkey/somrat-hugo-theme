@@ -236,8 +236,8 @@ body {
   border-radius: 100%;
   text-align: center;
   font-size: 29px;
-  border: 2px solid #999;
-  color: #999;
+  border: 2px solid #000;
+  color: #000;
   opacity: 0;
   cursor: pointer;
   transition: all 0.5s;
@@ -254,7 +254,7 @@ body {
 }
 
 .slider-button:hover {
-  background: #999;
+  background: #000;
   color: #fff;
 }
 
