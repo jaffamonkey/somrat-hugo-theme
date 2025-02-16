@@ -64,9 +64,9 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 [params]
 favicon = "images/favicon.png"
 # logo_light = "images/logo.png"
-logo_light = "images/slider/nfrlogo2.png"
+logo_light = "images/slider/nfrlogo.png"
 # logo_dark = "images/logo-dark.png"
-logo_dark = "images/slider/nfrlogo2.png"
+logo_dark = "images/slider/nfrlogo.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
