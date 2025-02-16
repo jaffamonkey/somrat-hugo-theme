@@ -1,12 +1,11 @@
 ---
 title : "SAY HELLO!"
 bg_image: "images/slider/Alderney4.jpg"
-form_action: "#" # works with https://formspree
+form_action: "https://formspree.io/f/xdkawjze" # works with https://formspree
 name: "Name"
 email: "Email"
 message: "Message"
-submit: "Submit"
-
+submit: "Send message"
 
 # custom style
 custom_class: "" 
