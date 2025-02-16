@@ -24,7 +24,6 @@ slider_images:
 - "images/slider/Alderney64.jpg"
 - "images/slider/Alderney1.jpg"
 - "images/slider/Alderney24.jpg"
-- "images/slider/Alderney4.jpg"
 - "images/slider/Alderney51.jpg"
 - "images/slider/Alderney16.jpg"
 - "images/slider/Alderney22.jpg"
