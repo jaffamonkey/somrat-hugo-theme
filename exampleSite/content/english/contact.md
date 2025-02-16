@@ -5,7 +5,7 @@ form_action: "https://formspree.io/f/xdkawjze" # works with https://formspree
 name: "Name"
 email: "Email"
 message: "Message"
-submit: "Send message"
+submit: "Send"
 
 # custom style
 custom_class: "" 
