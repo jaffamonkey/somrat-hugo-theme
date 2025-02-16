@@ -1,6 +1,6 @@
 ---
 title : "SAY HELLO!"
-bg_image: "images/slider/Alderney1.jpg"
+bg_image: "images/slider/Alderney4.jpg"
 form_action: "#" # works with https://formspree
 name: "Name"
 email: "Email"
