@@ -80,7 +80,6 @@ slider_images:
 - "images/slider/Alderney62.jpg"
 - "images/slider/Alderney63.jpg"
 - "images/slider/Alderney64.jpg"
-- "images/slider/Alderney65.jpg"
 
 # button
 button:
