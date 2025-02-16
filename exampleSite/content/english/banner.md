@@ -145,7 +145,7 @@ slider_images:
 - "images/slider/Alderney56.jpg"
 - "images/slider/Alderney57.jpg"
 - "images/slider/Alderney58.jpg"
-- "images/slider/Alderney59.jpg"
+# - "images/slider/Alderney59.jpg"
 - "images/slider/Alderney60.jpg"
 - "images/slider/Alderney61.jpg"
 - "images/slider/Alderney62.jpg"
