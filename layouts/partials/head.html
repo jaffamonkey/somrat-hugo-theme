@@ -20,6 +20,8 @@
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
   <!-- Custom stylesheet -->
   {{ $custom := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
