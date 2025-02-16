@@ -80,7 +80,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 [[params.social]]
 icon = "fab fa-instagram"
-name = "Instagram
+name = "Instagram"
 link = "https://www.instagram.com/somratpro"
 
 [[params.social]]
