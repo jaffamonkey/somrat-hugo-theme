@@ -82,6 +82,18 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 icon = "fab fa-instagram"
 link = "https://www.instagram.com/somratpro"
 
+[[params.social]]
+icon = "fab fa-whatsapp"
+link = "https://wa.me/447394074047"
+
+[[params.social]]
+icon = "fab fa-phone"
+link = "tel:+447394074047"
+
+[[params.social]]
+icon = "fab fa-sms"
+link = "sms:+447394074047"
+
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
