@@ -87,11 +87,11 @@ icon = "fab fa-whatsapp"
 link = "https://wa.me/447394074047"
 
 [[params.social]]
-icon = "fas fa-phone"
+icon = "fab fa-phone"
 link = "tel:+447394074047"
 
 [[params.social]]
-icon = "fas fa-sms"
+icon = "fab fa-sms"
 link = "sms:+447394074047"
 
 ################################### English language #####################################
