@@ -21,7 +21,7 @@ slider_images:
 # - "images/slider/Alderney8.jpg"
 # - "images/slider/Alderney9.jpg"
 # - "images/slider/Alderney10.jpg"
-- "images/slider/Alderney11.jpg"
+# - "images/slider/Alderney11.jpg"
 - "images/slider/Alderney12.jpg"
 - "images/slider/Alderney13.jpg"
 - "images/slider/Alderney14.jpg"
