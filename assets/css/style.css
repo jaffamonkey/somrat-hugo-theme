@@ -223,7 +223,7 @@ body {
   margin: auto;
   width: 100%;
   height: 100%;
-  /* background: rgba(233, 228, 228, 0.6); */
+  background: rgba(233, 228, 228, 0.6);
   z-index: 9;
 }
 
