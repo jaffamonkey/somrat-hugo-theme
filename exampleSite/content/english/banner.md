@@ -12,6 +12,7 @@ occupations:
 
 # slider background image loop
 slider_images:
+- "images/slider/Alderney0.jpg"
 # - "images/slider/Alderney1.jpg"
 # - "images/slider/Alderney2.jpg"
 # - "images/slider/Alderney3.jpg"
