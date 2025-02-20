@@ -453,13 +453,13 @@ input:checked+label span:last-child {
 
 .first-name {
   font-size: 100px;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 20px;
 }
 
 .last-name {
   font-size: 100px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   margin-bottom: 42px;
 }
