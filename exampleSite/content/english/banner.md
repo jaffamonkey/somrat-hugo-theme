@@ -13,8 +13,9 @@ occupations:
 # slider background image loop
 slider_images:
 - "images/slider/Alderney50_1.jpg"
+- "images/slider/Alderney00.jpg"
+- "images/slider/Alderney01.jpg"
 - "images/slider/Alderney0.jpg"
-- "images/slider/Alderney12.jpg"
 - "images/slider/Alderney13.jpg"
 - "images/slider/Alderney14.jpg"
 - "images/slider/Alderney16.jpg"
@@ -34,12 +35,10 @@ slider_images:
 - "images/slider/Alderney48.jpg"
 - "images/slider/Alderney50.jpg"
 - "images/slider/Alderney51.jpg"
-# - "images/slider/Alderney52.jpg"
 - "images/slider/Alderney54.jpg"
 - "images/slider/Alderney55.jpg"
 - "images/slider/Alderney56.jpg"
 - "images/slider/Alderney57.jpg"
-# - "images/slider/Alderney58.jpg"
 - "images/slider/Alderney61.jpg"
 - "images/slider/Alderney63.jpg"
 - "images/slider/Alderney65.jpg"
