@@ -99,6 +99,9 @@ name = "SMS"
 link = "sms:+447394074047"
 
 ################################### English language #####################################
+
+defaultContentLanguage = "en"
+
 [Languages.en]
 languageName = "English"
 languageCode = "en-us"
