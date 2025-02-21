@@ -67,8 +67,6 @@ favicon = "images/favicon.png"
 logo_light = "images/nfrlogo.png"
 # logo_dark = "images/logo-dark.png"
 logo_dark = "images/nfrlogo.png"
-englishFlag = "images/uk.png"
-spanishFlag = "images/spain.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
@@ -101,11 +99,8 @@ name = "SMS"
 link = "sms:+447394074047"
 
 ################################### English language #####################################
-
-defaultContentLanguage = "en"
-
 [Languages.en]
-languageName = "English"
+languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
@@ -134,50 +129,50 @@ url = "contact"
 weight = 2
 
 
-################################### Spanish language #####################################
-[Languages.es]
-languageName = "Espanol"
-languageCode = "es"
-contentDir = "content/spanish"
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
 weight = 2
 home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2025 Terrormar Club"
 
 
-################# Spanish navigation ##################
+################# english navigation ##################
 
 # main menu
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "About me"
 pre = "#"
 url = "about"
 weight = 2
 
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "Service"
 pre = "#"
 url = "service"
 weight = 3
 
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "Portfolio"
 pre = "#"
 url = "portfolio"
 weight = 4
 
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "Testimonial"
 pre = "#"
 url = "testimonial"
 weight = 5
 
-[[Languages.es.menu.main]]
+[[Languages.fr.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
