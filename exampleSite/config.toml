@@ -100,7 +100,7 @@ link = "sms:+447394074047"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
+languageName = "English"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
@@ -129,50 +129,50 @@ url = "contact"
 weight = 2
 
 
-################################### French language #####################################
+################################### Spanish language #####################################
 [Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+languageName = "Espanol"
+languageCode = "es"
+contentDir = "content/spanish"
 weight = 2
 home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2025 Terrormar Club"
 
 
-################# english navigation ##################
+################# Spanish navigation ##################
 
 # main menu
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "About me"
 pre = "#"
 url = "about"
 weight = 2
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Service"
 pre = "#"
 url = "service"
 weight = 3
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Portfolio"
 pre = "#"
 url = "portfolio"
 weight = 4
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Testimonial"
 pre = "#"
 url = "testimonial"
 weight = 5
 
-[[Languages.fr.menu.main]]
+[[Languages.es.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
