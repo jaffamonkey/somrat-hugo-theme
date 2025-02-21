@@ -22,8 +22,8 @@
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
-          <h1 class="introduction">{{ .Title | markdownify | emojify }}</h1>
-          <div class="animated-text">
+          <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
+          <!-- <div class="animated-text">
             <strong class="cd-headline clip">
               <span class="cd-words-wrapper">
                 {{ range $index, $elements:= .Params.occupations }}
@@ -31,7 +31,7 @@
                 {{ end }}
               </span>
             </strong>
-          </div>
+          </div> -->
           {{ with .Params.button }}
           {{ if .enable }}
           <a class="hireMe" href="{{ .link | relURL}}">{{ .label }}</a>
@@ -72,7 +72,7 @@
             <div class="full-nav-icon-holder">
               <ul class="full-nav-icons list-inline">
                 {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}" style="font-size:36px"></i></a></li>
                 {{ end }}
               </ul>
             </div>
@@ -86,19 +86,19 @@
 <!-- End Header -->
 
 <!-- Start Menu -->
-<section class="menu" id="menu">
-  <nav>
+<!-- <section class="menu" id="menu">
+  <nav> -->
     <!-- desktop-menu -->
-    <div class="menu-container">
+    <!-- <div class="menu-container">
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range site.Menus.main }}
         <li class="menu-item hvr-underline-from-left 1"><a
             href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
         </li>
         {{ end }}
-      </ul>
+      </ul> -->
       <!-- Language List -->
-      {{- if .IsTranslated }}
+      <!-- {{- if .IsTranslated }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -117,32 +117,32 @@
         {{ end }}
         {{ end }}
       </select>
-      {{ end }}
+      {{ end }} -->
       <!-- /desktop-menu -->
 
       <!-- mobile-menu -->
-      <div class="mobile-menu">
+      <!-- <div class="mobile-menu">
         <a class="menu-link">
           <div class="mobile-menu-nav">
             <span></span>
             <span></span>
             <span></span>
           </div>
-        </a>
-        <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
+        </a> -->
+        <!-- <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
-        </div>
-        <div class="menu-slider">
-          <nav>
-            <ul class="mobile-menu-list">
+        </div> -->
+        <!-- <div class="menu-slider"> -->
+          <!-- <nav> -->
+            <!-- <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
               <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
                   href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
               </li>
               {{ end }}
-            </ul>
+            </ul> -->
             <!-- Language List -->
-            {{- if .IsTranslated }}
+            <!-- {{- if .IsTranslated }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -161,18 +161,18 @@
               {{ end }}
               {{ end }}
             </select>
-            {{ end }}
-            <ul class="mobile-menu-icons list-inline">
+            {{ end }} -->
+            <!-- <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
-          </nav>
-        </div>
+          </nav> -->
+        <!-- </div>
       </div>
     </div>
   </nav>
-</section>
+</section> -->
 <!-- End Menu -->
 
 <!-- Start About Me -->
@@ -199,7 +199,7 @@
       {{ end }}
     </div>
 
-    <div class="row experience-skill">
+    <!-- <div class="row experience-skill">
       {{ with .Params.experience }}
       {{ if .enable }}
       <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
@@ -238,7 +238,7 @@
       </div>
       {{ end }}
       {{ end }}
-    </div>
+    </div> -->
   </div>
 </section>
 {{ end }}
@@ -422,7 +422,7 @@
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12"
+              <textarea class="form-control" name="message" id="message" rows="8"
                 placeholder="{{.Params.message}}"></textarea>
               <div class="help-block with-errors"></div>
             </div>
@@ -438,11 +438,11 @@
         <hr>
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}" style="font-size:36px"></i></a></li>
           {{ end }}
         </ul>
         <div class="to-top">
-          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+          <a href="#home" aria-label="Go to top of page"><i class="fa fa-chevron-up"></i></a>
         </div>
         <div class="credit content">
           {{ site.Params.copyright | markdownify }}
@@ -454,6 +454,6 @@
 {{ end }}
 <!-- End Contact -->
 
-<a href="#home" class="scroll-up hvr-icon-up"></a>
+<a href="#home" aria-label="Go to top of page" class="scroll-up hvr-icon-up"></a>
 
 {{ end }}
