@@ -133,7 +133,7 @@ weight = 2
 
 
 ################################### Spanish language #####################################
-[Languages.fr]
+[Languages.es]
 languageName = "Espanol"
 languageCode = "es"
 contentDir = "content/spanish"
