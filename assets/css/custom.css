@@ -14,3 +14,14 @@
     visibility: visible;
     pointer-events: visible;
 }
+
+.owl-nav>div:after {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+@media (max-width: 576px){
+body .owl-nav>div {
+    display: block;
+}
+}
