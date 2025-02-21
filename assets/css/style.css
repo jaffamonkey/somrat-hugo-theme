@@ -1623,7 +1623,7 @@ ul.experience-chart h4 {
 
 .form-container .form-control {
   border: 0;
-  border-radius: 0;
+  border-radius: 20px;
   height: 47px;
 }
 
