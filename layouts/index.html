@@ -86,19 +86,19 @@
 <!-- End Header -->
 
 <!-- Start Menu -->
-<section class="menu" id="menu">
-  <nav>
+<!-- <section class="menu" id="menu">
+  <nav> -->
     <!-- desktop-menu -->
-    <div class="menu-container">
+    <!-- <div class="menu-container">
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range site.Menus.main }}
         <li class="menu-item hvr-underline-from-left 1"><a
             href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
         </li>
         {{ end }}
-      </ul>
+      </ul> -->
       <!-- Language List -->
-      {{- if .IsTranslated }}
+      <!-- {{- if .IsTranslated }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -117,32 +117,32 @@
         {{ end }}
         {{ end }}
       </select>
-      {{ end }}
+      {{ end }} -->
       <!-- /desktop-menu -->
 
       <!-- mobile-menu -->
-      <div class="mobile-menu">
+      <!-- <div class="mobile-menu">
         <a class="menu-link">
           <div class="mobile-menu-nav">
             <span></span>
             <span></span>
             <span></span>
           </div>
-        </a>
-        <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
+        </a> -->
+        <!-- <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
-        </div>
-        <div class="menu-slider">
-          <nav>
-            <ul class="mobile-menu-list">
+        </div> -->
+        <!-- <div class="menu-slider"> -->
+          <!-- <nav> -->
+            <!-- <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
               <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
                   href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
               </li>
               {{ end }}
-            </ul>
+            </ul> -->
             <!-- Language List -->
-            {{- if .IsTranslated }}
+            <!-- {{- if .IsTranslated }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -161,18 +161,18 @@
               {{ end }}
               {{ end }}
             </select>
-            {{ end }}
-            <ul class="mobile-menu-icons list-inline">
+            {{ end }} -->
+            <!-- <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
-          </nav>
-        </div>
+          </nav> -->
+        <!-- </div>
       </div>
     </div>
   </nav>
-</section>
+</section> -->
 <!-- End Menu -->
 
 <!-- Start About Me -->
