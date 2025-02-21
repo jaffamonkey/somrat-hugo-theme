@@ -14,6 +14,7 @@ occupations:
 slider_images:
 - "images/slider/sitges-bay.jpg"
 - "images/slider/sitges-promenade.jpg"
+- "images/slider/sitges-hotel-pool.jpg"
 - "images/slider/Alderney00.jpg"
 # - "images/slider/Alderney01.jpg"
 - "images/slider/Alderney0.jpg"
