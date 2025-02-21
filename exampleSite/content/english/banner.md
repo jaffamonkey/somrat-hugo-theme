@@ -12,6 +12,7 @@ occupations:
 
 # slider background image loop
 slider_images:
+- "images/slider/Alderney76.jpg"
 - "images/slider/sitges-bay.jpg"
 - "images/slider/sitges-promenade.jpg"
 - "images/slider/sitges-hotel-pool.jpg"
@@ -56,7 +57,6 @@ slider_images:
 - "images/slider/Alderney73.jpg"
 - "images/slider/Alderney74.jpg"
 - "images/slider/Alderney75.jpg"
-- "images/slider/Alderney76.jpg"
 
 # button
 button:
