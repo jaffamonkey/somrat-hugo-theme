@@ -12,6 +12,8 @@ occupations:
 
 # slider background image loop
 slider_images:
+- "images/slider/sitges-bay.jpg"
+- "images/slider/sitges-promenade.jpg"
 - "images/slider/Alderney00.jpg"
 # - "images/slider/Alderney01.jpg"
 - "images/slider/Alderney0.jpg"
@@ -32,6 +34,7 @@ slider_images:
 - "images/slider/Alderney44_1.jpg"
 - "images/slider/Alderney44_2.jpg"
 - "images/slider/Alderney48.jpg"
+- "images/slider/AiguamollsdelEmporda.jpg"
 - "images/slider/Alderney50_1.jpg"
 # - "images/slider/Alderney50.jpg"
 - "images/slider/Alderney51.jpg"
