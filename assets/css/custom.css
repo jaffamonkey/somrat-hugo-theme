@@ -1,3 +1,12 @@
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .owl-carousel .owl-nav>div {
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -5,14 +14,3 @@
     visibility: visible;
     pointer-events: visible;
 }
-
-/* .owl-nav>div:after {
-    font-size: 22px;
-    line-height: 22px;
-}
-
-@media (max-width: 576px){
-body .owl-nav>div {
-    display: block;
-}
-} */
