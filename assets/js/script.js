@@ -114,7 +114,7 @@
 	backgroundSlide.owlCarousel({
 		loop: true,
 		items: 1,
-		dots: true,
+		dots: false,
 		autoplay: true,
 		autoplayTimeout: 5000,
 		animateOut: 'fadeOut'

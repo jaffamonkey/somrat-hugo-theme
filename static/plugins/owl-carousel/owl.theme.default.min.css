@@ -3,25 +3,6 @@
  * Copyright 2013-2017 David Deutsch
  * Licensed under  ()
  */
- .owl-carousel .owl-nav {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
-}
-
-.owl-nav:after {
-    font-size: 22px;
-    line-height: 22px;
-}
-
-@media (max-width: 576px){
-body .owl-nav {
-    display: block;
-}
-}
-
 .owl-theme .owl-dots,
 .owl-theme .owl-nav {
     text-align: center;
