@@ -24,14 +24,6 @@
     border-radius: 3px
 }
 
-.owl-carousel .owl-nav>div {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
-}
-
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: #869791;
     color: #FFF;
