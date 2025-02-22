@@ -219,6 +219,12 @@ body {
   height: 100%;
 }
 
+#area img {
+  width:100px;
+  height:100px;
+  position: absolute;
+}
+
 .header .slider::after,
 .header::after {
   content: '';
