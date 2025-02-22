@@ -6,22 +6,3 @@
     -ms-user-select: none;
     user-select: none;
 }
-
-.owl-carousel .owl-nav {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
-}
-
-.owl-nav:after {
-    font-size: 22px;
-    line-height: 22px;
-}
-
-@media (max-width: 576px){
-body .owl-nav {
-    display: block;
-}
-}
