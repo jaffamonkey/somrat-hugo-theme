@@ -27,9 +27,6 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  {{ $randomimage := resources.Get "js/randomimage.js" | minify}}
-  <script src="{{ $randomimage.Permalink }}"></script>
-
 
   <!-- Custom stylesheet -->
   {{ $custom := resources.Get "css/custom.css" | minify }}
