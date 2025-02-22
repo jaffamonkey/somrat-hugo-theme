@@ -3,8 +3,6 @@
 <!-- Start Header -->
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
-<div id="area">
-</div>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
@@ -17,6 +15,8 @@
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
+    <div id="area">
+    </div>
     <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
