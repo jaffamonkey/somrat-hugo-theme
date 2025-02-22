@@ -57,26 +57,9 @@
     display: block;
 }
 
-/* .owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
-    display: none
-} */
-
-.owl-carousel .owl-nav {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
-}
-
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
+    display: none
 }
 
 .no-js .owl-carousel,
