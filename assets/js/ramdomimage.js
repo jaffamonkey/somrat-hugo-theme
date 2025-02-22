@@ -1,5 +1,5 @@
 function randomImage() {
-  var pics = ["http://fakeimg.pl/250x100/0f0000/"
+  var pics = ["https://terrormar.club/images/knife.png"
   ];
 
   var img = '';
