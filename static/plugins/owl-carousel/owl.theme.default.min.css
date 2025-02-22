@@ -9,6 +9,17 @@
     -webkit-tap-highlight-color: transparent
 }
 
+.owl-nav>div:after {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+@media (max-width: 576px){
+body .owl-nav>div {
+    display: block;
+}
+}
+
 .owl-theme .owl-nav {
     margin-top: 10px
 }
