@@ -64,6 +64,7 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 [params]
 favicon = "images/favicon.png"
 # logo_light = "images/logo.png"
+random_image = "images/randomimage.png"
 logo_light = "images/nfrlogo.png"
 # logo_dark = "images/logo-dark.png"
 logo_dark = "images/nfrlogo.png"

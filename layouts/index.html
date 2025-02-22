@@ -2,11 +2,20 @@
 
 <!-- Start Header -->
 {{ with .GetPage "banner" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
+<style>
+  {
+      {
+      .Params.custom_css | safeCSS
+    }
+  }
+</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
+  <script>
+    randomImage();
+  </script>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -64,7 +73,8 @@
               <ul class="list-inline fullscreen-nav-holder">
                 {{ range site.Menus.main }}
                 <li><a class="text-uppercase"
-                    href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+                    href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{
+                    .Name }}</a>
                 </li>
                 {{ end }}
               </ul>
@@ -72,7 +82,8 @@
             <div class="full-nav-icon-holder">
               <ul class="full-nav-icons list-inline">
                 {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}" style="font-size:36px"></i></a></li>
+                <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}"
+                      style="font-size:36px"></i></a></li>
                 {{ end }}
               </ul>
             </div>
@@ -88,8 +99,8 @@
 <!-- Start Menu -->
 <!-- <section class="menu" id="menu">
   <nav> -->
-    <!-- desktop-menu -->
-    <!-- <div class="menu-container">
+<!-- desktop-menu -->
+<!-- <div class="menu-container">
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range site.Menus.main }}
         <li class="menu-item hvr-underline-from-left 1"><a
@@ -97,8 +108,8 @@
         </li>
         {{ end }}
       </ul> -->
-      <!-- Language List -->
-      <!-- {{- if .IsTranslated }}
+<!-- Language List -->
+<!-- {{- if .IsTranslated }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -118,10 +129,10 @@
         {{ end }}
       </select>
       {{ end }} -->
-      <!-- /desktop-menu -->
+<!-- /desktop-menu -->
 
-      <!-- mobile-menu -->
-      <!-- <div class="mobile-menu">
+<!-- mobile-menu -->
+<!-- <div class="mobile-menu">
         <a class="menu-link">
           <div class="mobile-menu-nav">
             <span></span>
@@ -129,20 +140,20 @@
             <span></span>
           </div>
         </a> -->
-        <!-- <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
+<!-- <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
         </div> -->
-        <!-- <div class="menu-slider"> -->
-          <!-- <nav> -->
-            <!-- <ul class="mobile-menu-list">
+<!-- <div class="menu-slider"> -->
+<!-- <nav> -->
+<!-- <ul class="mobile-menu-list">
               {{ range site.Menus.main }}
               <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
                   href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
               </li>
               {{ end }}
             </ul> -->
-            <!-- Language List -->
-            <!-- {{- if .IsTranslated }}
+<!-- Language List -->
+<!-- {{- if .IsTranslated }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -162,13 +173,13 @@
               {{ end }}
             </select>
             {{ end }} -->
-            <!-- <ul class="mobile-menu-icons list-inline">
+<!-- <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
           </nav> -->
-        <!-- </div>
+<!-- </div>
       </div>
     </div>
   </nav>
@@ -177,7 +188,13 @@
 
 <!-- Start About Me -->
 {{ with .GetPage "about" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
+<style>
+  {
+      {
+      .Params.custom_css | safeCSS
+    }
+  }
+</style>
 <section class="about-me {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="about">
   <div class="container">
     <div class="row about-me-holder">
@@ -404,8 +421,15 @@
 
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{.Params.bg_image | absURL}}');" id="contact">
+<style>
+  {
+      {
+      .Params.custom_css | safeCSS
+    }
+  }
+</style>
+<section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}}
+  style="background-image: url('{{.Params.bg_image | absURL}}');" id="contact">
   <div class="container">
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
@@ -438,7 +462,8 @@
         <hr>
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}" style="font-size:36px"></i></a></li>
+          <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}"
+                style="font-size:36px"></i></a></li>
           {{ end }}
         </ul>
         <div class="to-top">
