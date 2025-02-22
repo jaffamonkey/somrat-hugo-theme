@@ -5,7 +5,7 @@
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
-<script src="js/randomimage.js"></script>
+<script src="/js/randomimage.js"></script>
 <script src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- google analitycs -->" | safeHTML }}
