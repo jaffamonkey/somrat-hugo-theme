@@ -6,6 +6,8 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
+{{ $script2 := resources.Get "js/randomimage.js" | minify}}
+<script src="{{ $script2.Permalink }}"></script>
 
 {{ "<!-- google analitycs -->" | safeHTML }}
 {{ with site.Params.google_analitycs_id}}
