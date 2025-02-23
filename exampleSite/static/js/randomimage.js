@@ -1,7 +1,7 @@
 function randomImage() {
     var fileNames = [
-      "https://terrormar.club/images/knife.png",
-      "https://terrormar.club/images/knife.png",
+      "https://terrormar.club/images/fish.png",
+      "https://terrormar.club/images/fish.png",
       "https://terrormar.club/images/blank.png",
       "https://terrormar.club/images/blank.png",
       "https://terrormar.club/images/blank.png",
