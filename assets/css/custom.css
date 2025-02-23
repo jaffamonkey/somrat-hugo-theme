@@ -29,5 +29,6 @@ body .owl-nav>div {
 #area img {
     width:100px;
     height:100px;
+    opacity: 0.5;
     position: absolute;
 }
