@@ -15,8 +15,8 @@
   </div> 
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
+    <div id="background"></div>
     <div class="slider">
-      <div id="background"></div>
       <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
