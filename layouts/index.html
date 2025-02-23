@@ -15,29 +15,30 @@
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
-    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
+    <div class="slider">
+      <div id="area">
+        <script>
+          var pics = ["https://terrormar.club/images/knife.png"];
+          var img = '';
+          var showHide = Math.random() * 2;
+    
+          if (showHide = 1) {
+            for (ii = 0; ii < pics.length; ii++) {
+              positiontop = Math.random() * 500;
+              positionright = Math.random() * 800;
+              zindex = ii;
+              img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
+            }
+            document.getElementById('area').innerHTML = img;
+          }
+        </script>
+      </div>
+      <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
   <div class="container">
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
-        <div id="area">
-          <script>
-            var pics = ["https://terrormar.club/images/knife.png"];
-            var img = '';
-            var showHide = Math.random() * 2;
-      
-            if (showHide = 1) {
-              for (ii = 0; ii < pics.length; ii++) {
-                positiontop = Math.random() * 500;
-                positionright = Math.random() * 800;
-                zindex = ii;
-                img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
-              }
-              document.getElementById('area').innerHTML = img;
-            }
-          </script>
-        </div>
         <div class="head-holder">
           <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
           <!-- <div class="animated-text">
