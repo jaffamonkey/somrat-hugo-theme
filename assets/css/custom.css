@@ -32,3 +32,10 @@ body .owl-nav>div {
     opacity: 0.5;
     position: absolute;
 }
+
+#background{
+    width:100px;
+    height:100px;
+    opacity: 0.5;
+    position: absolute;
+  }
