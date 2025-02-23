@@ -33,6 +33,9 @@
 		}, rand);
 	}());
 
+	randomImage();
+    setInterval(randomImage, doSomething());
+
 
 	/*--------------------------------
 			End Preloader Animation
