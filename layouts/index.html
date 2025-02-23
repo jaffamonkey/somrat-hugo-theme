@@ -4,7 +4,7 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-  <img id="background" />
+  <img id="background"></img>
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
