@@ -4,7 +4,6 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-  <img id="background"></img>
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
@@ -24,6 +23,7 @@
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
+          <img id="background"></img>
           <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
           <!-- <div class="animated-text">
             <strong class="cd-headline clip">
