@@ -7,23 +7,6 @@
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
-  <div id="area">
-    <script>
-      var pics = ["https://terrormar.club/images/knife.png"];
-      var img = '';
-      var showHide = Math.random() * 2;
-
-      if (showHide = 1) {
-        for (ii = 0; ii < pics.length; ii++) {
-          positiontop = Math.random() * 500;
-          positionright = Math.random() * 800;
-          zindex = ii;
-          img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
-        }
-        document.getElementById('area').innerHTML = img;
-      }
-    </script>
-  </div>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -40,6 +23,23 @@
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
           <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
+          <div id="area">
+            <script>
+              var pics = ["https://terrormar.club/images/knife.png"];
+              var img = '';
+              var showHide = Math.random() * 2;
+        
+              if (showHide = 1) {
+                for (ii = 0; ii < pics.length; ii++) {
+                  positiontop = Math.random() * 500;
+                  positionright = Math.random() * 800;
+                  zindex = ii;
+                  img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
+                }
+                document.getElementById('area').innerHTML = img;
+              }
+            </script>
+          </div>
           <!-- <div class="animated-text">
             <strong class="cd-headline clip">
               <span class="cd-words-wrapper">
