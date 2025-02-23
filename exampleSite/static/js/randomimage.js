@@ -6,7 +6,6 @@ function randomImage() {
     ];
     var randomIndex = Math.floor(Math.random() * fileNames.length);
     document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-  
   }
   
   function getRandomTime() {
