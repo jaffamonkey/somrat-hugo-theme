@@ -13,6 +13,7 @@
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
   </div>
+  <div id="background"></div> 
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
     <div class="slider">
@@ -479,8 +480,6 @@
   randomImage();
   setInterval(randomImage, doSomething());
 </script>
-
-<div id="background"></div> 
 
 <a href="#home" aria-label="Go to top of page" class="scroll-up hvr-icon-up"></a>
 
