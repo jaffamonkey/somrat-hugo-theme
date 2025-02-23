@@ -36,6 +36,9 @@ body .owl-nav>div {
 #background{
     width:100px;
     height:100px;
+    top: 100;
+    left: 100;
+    bottom: 100;
     opacity: 0.5;
     position: absolute;
   }
