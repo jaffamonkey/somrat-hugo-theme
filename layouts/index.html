@@ -27,11 +27,6 @@
           img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
         }
         document.getElementById('area').innerHTML = img;
-        let time = 500 // time in milliseconds
-        img.hidden = true // set img to hidden on load
-        setTimeout(() => {
-          img.hidden = false // after timeout show img
-        }, time)
       }
     </script>
   </div>
