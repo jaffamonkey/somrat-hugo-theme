@@ -13,6 +13,30 @@
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
+  <script>
+    function randomImage() {
+      var fileNames = [
+        "https://terrormar.club/images/knife.png",
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",      ];
+      var randomIndex = Math.floor(Math.random() * fileNames.length);
+      document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
+    }
+    function doSomething() { }
+    (function loop() {
+      var rand = Math.round(Math.random() * 600000);
+      setTimeout(function () {
+        doSomething();
+        loop();
+      }, rand);
+    }());
+    randomImage();
+    setInterval(randomImage, doSomething());
+  </script>
   <!-- <div id="area">
     <script>
       var pics = ["https://terrormar.club/images/knife.png"];
