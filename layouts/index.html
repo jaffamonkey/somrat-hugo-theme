@@ -13,56 +13,32 @@
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
-  <script>
-    function randomImage() {
-      var fileNames = [
-        "https://terrormar.club/images/knife.png",
-        "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png",      ];
-      var randomIndex = Math.floor(Math.random() * fileNames.length);
-      document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-    }
-    function doSomething() { }
-    (function loop() {
-      var rand = Math.round(Math.random() * 600000);
-      setTimeout(function () {
-        doSomething();
-        loop();
-      }, rand);
-    }());
-    randomImage();
-    setInterval(randomImage, doSomething());
-  </script>
-  <!-- <div id="area">
+  <div id="area">
     <script>
-      var pics = ["https://terrormar.club/images/knife.png"];
-      var img = '';
-      var showHide = Math.random() * 2;
-
-      if (showHide = 1) {
-        for (ii = 0; ii < pics.length; ii++) {
-          positiontop = Math.random() * 500;
-          positionright = Math.random() * 800;
-          zindex = ii;
-          img += '<img src="' + pics[ii] + '" style="top: ' + positiontop + 'px;' + 'right: ' + positionright + 'px;' + 'z-index: ' + zindex + ';">';
-        }
-        document.getElementById('area').innerHTML = img;
-    }
+      function randomImage() {
+        var fileNames = [
+          "https://terrormar.club/images/knife.png",
+          "https://terrormar.club/images/blank.png",
+          "https://terrormar.club/images/blank.png",
+          "https://terrormar.club/images/blank.png",
+          "https://terrormar.club/images/blank.png",
+          "https://terrormar.club/images/blank.png",
+          "https://terrormar.club/images/blank.png",];
+        var randomIndex = Math.floor(Math.random() * fileNames.length);
+        document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
+      }
+      function doSomething() { }
+      (function loop() {
+        var rand = Math.round(Math.random() * 600000);
+        setTimeout(function () {
+          doSomething();
+          loop();
+        }, rand);
+      }());
+      randomImage();
+      setInterval(randomImage, doSomething());
     </script>
-  </div> -->
-  <!-- <img id=img src="https://terrormar.club/images/knife.png">
-  <script>
-    let img = document.getElementById('img')
-    let time = Math.random() * 100000; // time in milliseconds
-    img.hidden = true // set img to hidden on load
-    setTimeout(() => {
-      img.hidden = false // after timeout show img
-    }, time)
-  </script> -->
+  </div>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
