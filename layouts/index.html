@@ -31,31 +31,6 @@
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
           <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
-          <script>
-            function randomImage() {
-              var fileNames = [
-                "https://terrormar.club/images/knife.png",
-                "https://terrormar.club/images/knife.png",
-                "https://terrormar.club/images/knife.png",
-                "https://terrormar.club/images/knife.png",
-                "https://terrormar.club/images/knife.png",
-                "https://terrormar.club/images/blank.png"];
-              var randomIndex = Math.floor(Math.random() * fileNames.length);
-              document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-            }
-
-            function getRandomTime() {
-              return 2000;
-              // return Math.round(Math.random() * 5000);
-            }
-
-            (function loop() {
-              setTimeout(function () {
-                randomImage();
-                loop();
-              }, getRandomTime())
-            })();
-          </script>
           <div id="background"></div>
           <!-- <div class="animated-text">
             <strong class="cd-headline clip">
