@@ -14,6 +14,7 @@ function randomImage() {
   var randomIndex = Math.floor(Math.random() * fileNames.length);
   document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
 }
+
 function doSomething() { }
 (function loop() {
   var rand = Math.round(Math.random() * 9999999999);
