@@ -1,0 +1,29 @@
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#area {
+	img {
+		width: 100px;
+		height: 100px;
+		opacity: 0.5;
+		position: absolute;
+	}
+}
+#background {
+	width: 100px;
+	height: auto;
+	// left: 200px;
+	// top: 400px;
+	z-index: -1;
+	opacity: 0.4;
+	position: absolute;
+	transition: opacity 1s linear;
+	@random-margin: `Math.random() * 500`;
+	left: @random-margin * 1px;
+    top: @random-margin * 1px;
+}
