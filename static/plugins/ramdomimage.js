@@ -13,16 +13,17 @@ function randomImage() {
     "https://terrormar.club/images/blank.png"];
   var randomIndex = Math.floor(Math.random() * fileNames.length);
   document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
+
 }
 
-function doSomething() { }
-(function loop() {
-  var rand = Math.round(Math.random() * 9999999999);
-  setTimeout(function () {
-    doSomething();
-    loop();
-  }, rand);
-}());
+function getRandomTime() {
+  return 1000;
+  // return Math.round(Math.random() * 5000);
+}
 
-randomImage();
-setInterval(randomImage, doSomething());
+(function loop() {
+  setTimeout(function () {
+    randomImage();
+    loop();
+  }, getRandomTime())
+})();
