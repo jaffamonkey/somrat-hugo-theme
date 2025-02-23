@@ -16,8 +16,7 @@ function randomImage() {
   }
   
   function getRandomTime() {
-          return 500;
-      // return Math.round(Math.random() * 5000);
+      return Math.round(Math.random() * 5000);
   }
   
   (function loop() {
