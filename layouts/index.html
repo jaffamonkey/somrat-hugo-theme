@@ -4,6 +4,7 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
+  <div id="background"></div>
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
@@ -13,7 +14,6 @@
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
   </div> 
-  <div id="background"></div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
     <div class="slider">
