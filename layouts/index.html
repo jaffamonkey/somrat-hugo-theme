@@ -19,11 +19,11 @@
       <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
-  <div id="background"></div>
   <div class="container">
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
+          <div id="background"></div>
           <h1 class="introduction unselectable">{{ .Title | markdownify | emojify }}</h1>
           <!-- <div class="animated-text">
             <strong class="cd-headline clip">
