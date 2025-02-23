@@ -9,24 +9,6 @@
     }
   }
 </style>
-<script>
-  function getRandomTime() {
-    return 1000;
-    // return Math.round(Math.random() * 5000);
-  }
-  (function loop() {
-    setTimeout(function () {
-      var fileNames = [
-      "https://terrormar.club/images/knife.png",
-      "https://terrormar.club/images/blank.png",
-      "https://terrormar.club/images/knife.png"
-    ];
-    var randomIndex = Math.floor(Math.random() * fileNames.length);
-    document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-      loop();
-    }, getRandomTime())
-  })();
-</script>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
