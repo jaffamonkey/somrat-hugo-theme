@@ -15,7 +15,7 @@
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
-    <div id="area">
+    <!-- <div id="area">
       <script>
         var pics = ["https://terrormar.club/images/knife.png"];
         var img = '';
@@ -31,7 +31,7 @@
           document.getElementById('area').innerHTML = img;
         }
       </script>
-    </div>
+    </div> -->
     <div class="slider">
       <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
