@@ -14,9 +14,9 @@
     <i class="fa fa-angle-right"></i>
   </div> 
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
-    <div id="background"></div>
     {{ range .Params.slider_images }}
     <div class="slider">
+      <div id="background"></div>
       <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
