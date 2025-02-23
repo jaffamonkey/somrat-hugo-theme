@@ -38,6 +38,6 @@ body .owl-nav>div {
     height:100px;
     left: 300px;
     top: 300px;
-    /* opacity: 0.5; */
+    opacity: 0.5;
     position: absolute;
   }
