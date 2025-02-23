@@ -34,8 +34,8 @@ body .owl-nav>div {
 }
 
 #background img{
-    width:100px;
-    height:100px;
-    opacity: 0.5;
+    width:1000px;
+    height:1000px;
+    /* opacity: 0.5; */
     position: absolute;
   }
