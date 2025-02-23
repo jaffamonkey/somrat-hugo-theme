@@ -4,34 +4,6 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-  <script>
-    function randomImage() {
-      var fileNames = [
-        "https://terrormar.club/images/knife.png",
-        "https://terrormar.club/images/knife.png",
-        "https://terrormar.club/images/knife.png",
-        "https://terrormar.club/images/knife.png",
-        "https://terrormar.club/images/knife.png",
-        // "https://terrormar.club/images/blank.png",
-        // "https://terrormar.club/images/blank.png",
-        // "https://terrormar.club/images/blank.png",
-        // "https://terrormar.club/images/blank.png",
-        // "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png"];
-      var randomIndex = Math.floor(Math.random() * fileNames.length);
-      document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-    }
-    function doSomething() { }
-    (function loop() {
-      var rand = Math.round(Math.random() * 9999999999);
-      setTimeout(function () {
-        doSomething();
-        loop();
-      }, rand);
-    }());
-    randomImage();
-    setInterval(randomImage, doSomething());
-  </script>
   <div id="background"></div>
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
