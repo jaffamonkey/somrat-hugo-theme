@@ -1,3 +1,8 @@
+function setAttributes(el, attrs) {
+    for (var key in attrs) {
+        el.setAttribute(key, attrs[key]);
+    }
+}
 function randomImage() {
     var fileNames = [
         "https://terrormar.club/images/blank.png",
@@ -10,9 +15,7 @@ function randomImage() {
     var randomTopPosition = Math.floor(Math.random() * 450) + 100;
     // document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
     // document.getElementById("background").src='' + fileNames[randomIndex] + '';
-    document.getElementById("background").src='' + fileNames[randomIndex] + '';
-    document.getElementById("background").left='' + randomLeftPosition + '';
-    document.getElementById("background").top='' + randomTopPosition +'';
+    setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "" });
 }
 
 function getRandomTime() {
