@@ -30,10 +30,10 @@
   <script src='https://terrormar.club/js/randomimage.js'></script>
 
   <!-- Custom stylesheet -->
-  <!-- {{ $custom := resources.Get "css/custom.css" | minify }}
-  <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen"> -->
-  {{ $custom := resources.Get "css/custom.less" | minify }}
+  {{ $custom := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
+  <!-- {{ $custom := resources.Get "css/custom.less" | minify }}
+  <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen"> -->
 
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
