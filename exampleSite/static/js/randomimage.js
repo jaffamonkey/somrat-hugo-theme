@@ -6,8 +6,8 @@ function randomImage() {
         "https://terrormar.club/images/blank.png",
     ];
     var randomIndex = Math.floor(Math.random() * fileNames.length);
-    var randomLeftPosition = Math.floor(Math.random() * 400) + 100;
-    var randomTopPosition = Math.floor(Math.random() * 600) + 100;
+    var randomLeftPosition = Math.floor(Math.random() * 300) + 100;
+    var randomTopPosition = Math.floor(Math.random() * 450) + 100;
     // document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
     // document.getElementById("background").src='' + fileNames[randomIndex] + '';
     document.getElementById("background").setAttribute('src=', fileNames[randomIndex]).setAttribute('left', randomLeftPosition).setAttribute('top', randomTopPosition);
