@@ -19,8 +19,6 @@ function randomImage() {
     // setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "" });
     setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "object-position:": "top " + randomTopPosition + " left " + randomLeftPosition + ""});
     // setAttributes(elem, { "src": "" + fileNames[randomIndex] + "" });
-
-    : "left": "" + randomLeftPosition + ""
 }
 
 function getRandomTime() {
