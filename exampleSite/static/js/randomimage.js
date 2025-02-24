@@ -15,8 +15,8 @@ function randomImage() {
     var randomTopPosition = Math.floor(Math.random() * 380) + 100;
     var elem = document.getElementById("imagearea");
     // document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
-    // document.getElementById("background").src='' + fileNames[randomIndex] + '';
-    setAttributes(elem, { "background": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "" });
+    // document.getElementById("imagearea").src='' + fileNames[randomIndex] + '';
+    setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "" });
     // setAttributes(elem, { "src": "" + fileNames[randomIndex] + "" });
 }
 
