@@ -15,10 +15,6 @@ function getRandomTime() {
     return Math.floor(Math.random() * 3000) + 1000
 }
 
-function showHide() {
-    return Math.floor(Math.random() * 4) + 1
-}
-
 if (function loop() {
     setTimeout(function () {
         randomImage();
