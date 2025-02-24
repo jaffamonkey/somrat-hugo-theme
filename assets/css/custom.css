@@ -36,11 +36,11 @@ body .owl-nav>div {
 #background {
     width:100px;
     height:auto;
-    left: 300px;
-    top: 400px;
+    left: 200px;
+    top: 300px;
     z-index: -1;
     opacity: 0.3;
-    position: relative;
+    position: absolute;
     /* transition: opacity .4s ease */
     transition: opacity 1s linear;
   }
