@@ -42,5 +42,5 @@ body .owl-nav>div {
     opacity: 0.1;
     position: absolute;
     /* transition: opacity .4s ease */
-    transition: opacity 1s linear;
+    transition: opacity .4s ease
   }
