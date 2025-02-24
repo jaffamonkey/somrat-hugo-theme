@@ -10,7 +10,6 @@ It's a unique portfolio template that made your portfolio website looks great, T
 - [Installation](#installation)
 
 ## Demo
-
 [Live Preview](https://somrat.netlify.com/).
 
 **The images are only for demonstration purpose, Please don't use those images.**
