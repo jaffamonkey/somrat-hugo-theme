@@ -9,7 +9,6 @@ function randomImage() {
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/scaryface.png",
         "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/scaryface.png",
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/blank.png"
     ];

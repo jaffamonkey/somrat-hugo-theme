@@ -39,14 +39,14 @@ body .owl-nav>div {
     /* left: 170px;
     top: 300px; */
     z-index: 9999;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     position: absolute;
     /* transition: 1s; */
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
   }
   @keyframes fadeIn {
     0% {
