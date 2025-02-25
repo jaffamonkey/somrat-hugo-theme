@@ -18,7 +18,7 @@ function randomImage() {
     var elem = document.getElementById("background");
     document.getElementById("background").style.background = 'url(' + fileNames[randomIndex] + ')';
     // document.getElementById("background").src='' + fileNames[randomIndex] + '';
-    setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "", "z-index": -1, "width": "100px", "height": auto, "position": "relative", "transition": "1s" });
+    setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "left": "" + randomLeftPosition + "", "top": "" + randomTopPosition + "", "z-index": "-1", "width": "100px", "height": "auto", "position": "relative", "transition": "1s" });
     // setAttributes(elem, { "src": "" + fileNames[randomIndex] + "", "object-position:": "top " + randomTopPosition + " left " + randomLeftPosition + "" });
     // setAttributes(elem, { "src": "" + fileNames[randomIndex] + "" });
 }
