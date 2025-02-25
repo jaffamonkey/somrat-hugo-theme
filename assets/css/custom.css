@@ -27,20 +27,19 @@ body .owl-nav>div {
 } */
 
 #area img {
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
     opacity: 0.5;
     position: absolute;
 }
 
 #background {
-    width:100px;
-    height:auto;
-    /* left: 170px;
-    top: 400px; */
+    width: 100px;
+    height: auto;
+    left: 170px;
+    top: 400px;
     z-index: -1;
     opacity: 0.2;
     position: relative;
-    /* transition: opacity .4s ease */
-    transition: opacity 1s ease-in-out;
-  }
+    transition: 1s;
+}
