@@ -193,7 +193,7 @@ body {
 }
 
 .logo img {
-  width: 200px;
+  width: 150px;
 }
 
 .owl-carousel.owl-full-width {
@@ -306,7 +306,7 @@ body {
 }
 
 .introduction {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -1796,7 +1796,7 @@ textarea.form-control::-webkit-input-placeholder,
 
 @media(max-width: 550px) and (min-height: 501px) {
   .introduction {
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 5px;
   }
 
