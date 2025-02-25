@@ -3,7 +3,7 @@
 <!-- Start Header -->
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
-<img id="background" class="fade-in"></img>
+<img id="background"></img>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">

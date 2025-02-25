@@ -42,9 +42,6 @@ body .owl-nav>div {
     opacity: 0.2;
     position: absolute;
     /* transition: 1s; */
-}
-
-.fade-in {
     animation: fadeIn ease 10s;
     -webkit-animation: fadeIn ease 10s;
     -moz-animation: fadeIn ease 10s;
