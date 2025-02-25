@@ -33,7 +33,7 @@ body .owl-nav>div {
     position: absolute;
 }
 
-#background img {
+#background {
     width: 100px;
     height: auto;
     left: 170px;
