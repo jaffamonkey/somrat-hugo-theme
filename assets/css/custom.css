@@ -43,10 +43,11 @@ body .owl-nav>div {
     position: absolute;
     /* transition: 1s; */
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
+    /* -webkit-animation: fadeIn ease 2s;
     -moz-animation: fadeIn ease 2s;
     -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s; */
+    transition: all .5s;
   }
   @keyframes fadeIn {
     0% {
