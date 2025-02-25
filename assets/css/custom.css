@@ -41,5 +41,5 @@ body .owl-nav>div {
     z-index: 9999;
     opacity: 0.2;
     position: absolute;
-    transition: 1s;
+    /* transition: 1s; */
 }
