@@ -11,6 +11,7 @@ function randomImage() {
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/scaryface.png",
         "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png"
     ];
     var randomIndex = Math.floor(Math.random() * fileNames.length);
     var randomLeftPosition = Math.floor(Math.random() * 300) + 50;
@@ -24,7 +25,7 @@ function randomImage() {
 }
 
 function getRandomTime() {
-    return Math.floor(Math.random() * 3000) + 1000
+    return Math.floor(Math.random() * 2000) + 1000
 }
 
 (function loop() {
