@@ -7,10 +7,12 @@ function randomImage() {
     var fileNames = [
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/scaryface.png",
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/blank.png",
-        "https://terrormar.club/images/blank.png"
+        "https://terrormar.club/images/blank.png",
+        "https://terrormar.club/images/scaryface.png"
     ];
     var randomIndex = Math.floor(Math.random() * fileNames.length);
     var randomLeftPosition = Math.floor(Math.random() * 300) + 50;
