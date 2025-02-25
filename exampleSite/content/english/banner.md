@@ -13,7 +13,7 @@ occupations:
 # slider background image loop
 slider_images:
 # - "images/slider/Alderney76.jpg"
-- "images/slider/sitges-bay.jpg"
+# - "images/slider/sitges-bay.jpg"
 - "images/slider/sitges-promenade.jpg"
 - "images/slider/sitges-hotel-pool.jpg"
 - "images/slider/Alderney00.jpg"
