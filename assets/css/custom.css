@@ -42,7 +42,7 @@ body .owl-nav>div {
     opacity: 0.2;
     position: absolute;
     /* transition: 1s; */
-    animation: fadeIn ease 2s;
-    transition: all .5s;
+    /* animation: fadeIn ease 2s; */
+    /* transition: all .5s; */
   }
   
