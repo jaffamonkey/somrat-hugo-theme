@@ -7,14 +7,14 @@
     user-select: none;
 }
 
-/* .owl-carousel .owl-nav .disabled {
+.owl-carousel .owl-nav .disabled {
     transform: translateY(0);
     -webkit-transform: translateY(0);
     opacity: 1;
     visibility: visible;
     pointer-events: visible;
 }
-
+/* 
 .owl-nav>div:after {
     font-size: 22px;
     line-height: 22px;
