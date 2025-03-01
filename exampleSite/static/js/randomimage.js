@@ -27,13 +27,12 @@ function randomImage() {
 }
 
 function getRandomTime() {
-    return Math.floor(Math.random() * 3002) + 3000
+    return Math.floor(Math.random() * 4000) + 3000
 }
 
 (function loop() {
     setTimeout(function () {
         randomImage();
         loop();
-        // }, getRandomTime())
-    }, 3000)
+        }, getRandomTime())
 })();
