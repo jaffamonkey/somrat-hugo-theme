@@ -5,7 +5,6 @@ function setAttributes(el, attrs) {
 }
 function randomImage() {
     var fileNames = [
-        "https://terrormar.club/images/horrorface2.png",
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/blank.png",
         "https://terrormar.club/images/blank.png",
