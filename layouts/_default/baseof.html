@@ -2,7 +2,7 @@
 <html lang="en-us">
 {{- partial "head.html" . -}}
 
-<body onload="randomimage()">
+<body>
 	{{- partialCached "preloader.html" . -}}
 	{{ if not .IsHome}}
 	{{- partial "header.html" . -}}
