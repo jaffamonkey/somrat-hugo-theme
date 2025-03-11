@@ -20,10 +20,10 @@
     line-height: 22px;
 }
 
-@media (max-width: 576px){
-body .owl-nav>div {
-    display: block;
-}
+@media (max-width: 300px) {
+    body .owl-nav>div {
+        display: block;
+    }
 }
 
 #area img {
@@ -44,5 +44,4 @@ body .owl-nav>div {
     /* transition: 1s; */
     /* animation: fadeIn ease 2s; */
     /* transition: all .5s; */
-  }
-  
+}
