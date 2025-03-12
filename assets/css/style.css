@@ -1980,7 +1980,7 @@ textarea.form-control::-webkit-input-placeholder,
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .slider-button {
     display: none;
   }

@@ -15,7 +15,7 @@
     pointer-events: visible;
 }
 
-.owl-nav>div:after {
+/* .owl-nav>div:after {
     font-size: 22px;
     line-height: 22px;
 }
@@ -24,7 +24,7 @@
 body .owl-nav>div {
     display: block;
 }
-}
+} */
 
 #area img {
     width: 100px;
