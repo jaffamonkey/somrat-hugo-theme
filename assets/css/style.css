@@ -242,15 +242,15 @@ body {
 
 .slider-button {
   position: absolute;
-  top: 49%;
+  top: 75%;
   height: 35px;
   width: 35px;
   z-index: 10;
   border-radius: 100%;
   text-align: center;
   font-size: 29px;
-  border: 2px solid #d60404;
-  color: #d60404;
+  border: 2px solid #dad6d6;
+  color: #5a5a5a;
   opacity: 0;
   cursor: pointer;
   transition: all 0.5s;
@@ -267,8 +267,8 @@ body {
 }
 
 .slider-button:hover {
-  background: #000;
-  color: #fff;
+  background: #5a5a5a;
+  color: #dad6d6;
 }
 
 .header:hover .slider-button {
