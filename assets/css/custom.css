@@ -20,7 +20,7 @@
     line-height: 22px;
 }
 
-@media (max-width: 300px){
+@media (max-width: 350px){
 body .owl-nav>div {
     display: block;
 }
