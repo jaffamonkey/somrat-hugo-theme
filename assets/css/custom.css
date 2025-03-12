@@ -15,15 +15,15 @@
     pointer-events: visible;
 } */
 
-.owl-nav>div:after {
+.owl-nav:after {
     font-size: 22px;
     line-height: 22px;
 }
 
-@media (max-width: 300px) {
-    body .owl-nav>div {
-        display: block;
-    }
+@media (max-width: 300px){
+body .owl-nav {
+    display: block;
+}
 }
 
 #area img {
@@ -44,4 +44,5 @@
     /* transition: 1s; */
     /* animation: fadeIn ease 2s; */
     /* transition: all .5s; */
-}
+  }
+  
