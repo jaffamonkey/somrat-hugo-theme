@@ -7,7 +7,7 @@
     user-select: none;
 }
 
-.owl-carousel .owl-nav .disabled {
+/* .owl-carousel .owl-nav .disabled {
     transform: translateY(0);
     -webkit-transform: translateY(0);
     opacity: 1;
@@ -24,7 +24,7 @@
 body .owl-nav>div {
     display: block;
 }
-}
+} */
 
 #area img {
     width: 100px;
